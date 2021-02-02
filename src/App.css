@@ -1,38 +1,171 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: GreycliffCF;
+  src: url("../src/assets/fonts/FontsFree-Net-greycliff-cf-bold.ttf");
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: Muli;
+  src: url("../src/assets/fonts/Muli.ttf");
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+  ._Getinge_OneScreen {
+    width: 1440px;
+    height: 1172px;
+    padding: 0 0 60px;
+    background-color: #f4f5f7;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .Rectangle {
+    width: 1440px;
+    height: 100px;
+    background-color: #18274a;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Logo {
+    width: 194px;
+    height: 40px;
+    margin: 30px 0 30px 40px;
+    object-fit: contain;
   }
-}
+
+  .Rectangle-Copy-8 {
+    width: 440px;
+    height: 50px;
+    margin: 0px 500px 0px 500px;
+    padding: 10px 79px 10px 15px;
+    border-radius: 10px;
+    top: 15px;
+    position: absolute;
+  }
+
+  .iconsearch {
+    width: 22px;
+    height: 22px;
+    margin: 4px 10px 4px 0;
+    object-fit: contain;
+  }
+
+  .Takip-Numaras-ile-K {
+    width: 314px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 50px;
+    margin: 0 0 0 10px;
+    font-family: GreycliffCF;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    color: #8e9fad;
+  }
+
+  .Rectangle-Copy-10 {
+    width: 70px;
+    height: 50px;
+    padding: 16px 20px 17px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: inset 0 -3px 1px 0 rgba(28, 31, 37, 0.2);
+    background-color: #1753c9;
+  }
+
+  .Ara {
+    width: 30px;
+    height: 17px;
+    font-family: GreycliffCF;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.22px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .Rectangle-Copy-14 {
+    width: 260px;
+    height: 50px;
+    margin: 25px 40px 25px;
+    padding: 12px 55px 14px 45px;
+    border-radius: 10px;
+    box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
+    background-color: rgba(255, 255, 255, 0.95);
+    float: right;
+  }
+
+  .iconsss {
+    width: 24px;
+    height: 24px;
+    margin: 0 15px 0 0;
+    object-fit: contain;
+  } 
+
+  .Sk-Sorulan-Sorular {
+    width: 121px;
+    height: 19px;
+    font-family: GreycliffCF;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.1px;
+    color: #1c1f25;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .mainBlock {
+    position: absolute;
+    width: 1440px;
+    height: 541px;
+  }
+  
+  .hero {
+    width: 1440px;
+    height: 541px;
+    margin: 0 0 212px;
+    padding: 0 0 134px;
+    object-fit: contain;
+  }
+
+  .With-passion-for-the {
+    width: 449px;
+    height: 191px;
+    margin: 140px 911px 140px 80px;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    font-family: Muli;
+    font-size: 48px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+  }
+
+  .With-passion-for-the .text-style-1 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .We-focus-on-contamin {
+    width: 478px;
+    height: 78px;
+    margin: 189px 0 0;
+    text-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    font-family: Muli;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #ffffff;
+  }
