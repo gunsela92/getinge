@@ -1,22 +1,16 @@
 import React from "react";
-import hero from "../../assets/img/hero.png";
 
 const Mainblock = () => {
   return (
     <div className="mainBlock">
       <div className="With-passion-for-the">
         With passion for
-        <span className=".text-style-1"> the future</span>
+        <span className="text-style-1"> the future</span>
+        <div className="We-focus-on-contamin">We focus on contamination prevention and upstream bioprocessing to provide tailored, efficient and compliant solutions.</div>
       </div>
-      <div>
-      <img
-        src={hero}
-        srcset="../../assets/img/hero@2x.png 2x,
-     ../../assets/img/hero@3x.png 3x"
-        className="hero"
-        alt=""
-      />
-    </div></div>
+      <div className="hero">
+      </div>
+    </div>
   );
 };
 
