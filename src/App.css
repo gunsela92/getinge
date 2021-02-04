@@ -16,8 +16,10 @@
   ._Getinge_OneScreen {
     width: 1440px;
     height: 1172px;
-    padding: 0 0 60px;
     background-color: #f4f5f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .Rectangle {
@@ -27,6 +29,7 @@
     position: absolute;
     display: block;
     z-index: 9;
+    top: 0;
   }
 
   .Logo {
@@ -139,13 +142,12 @@
     position: absolute;
     width: 1440px;
     height: 541px;
+    top: 0;
   }
   
   .hero {
     width: 1440px;
     height: 541px;
-    margin: 0 0 212px;
-    padding: 0 0 134px;
     object-fit: contain;
     background-image: url("./assets/img/hero.png");
     background-repeat: no-repeat;
@@ -185,4 +187,230 @@
     line-height: 1.44;
     letter-spacing: normal;
     color: #ffffff;
+  }
+
+  .ayinProjesi {
+    position: absolute;
+    width: 440px;
+    height: 100px;
+    padding: 9px 115px 14px 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
+    border: solid 1px #dee3ed;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 490px;
+    left: 40px;
+    box-sizing: border-box;
+  }
+
+  .oneriBox {
+    position: absolute;
+    width: 440px;
+    height: 100px;
+    padding: 9px 115px 14px 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
+    border: solid 1px #dee3ed;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 490px;
+    left: 500px;
+    box-sizing: border-box;
+    right: 500px;
+  }
+
+  .operationBox {
+    position: absolute;
+    width: 440px;
+    height: 100px;
+    padding: 9px 115px 14px 30px;
+    border-radius: 10px;
+    box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
+    border: solid 1px #dee3ed;
+    background-color: rgba(255, 255, 255, 0.95);
+    top: 490px;
+    left: 960px;
+    box-sizing: border-box;
+    right: 40px;
+  }
+
+  .projeText {
+    width: 295px;
+    height: 77px;
+    font-family: GreycliffCF;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #18274a;
+    margin: 25px 115px 14px 0px;
+  }
+
+  .oneriText {
+    width: 295px;
+    height: 77px;
+    font-family: GreycliffCF;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #18274a;
+    margin: 25px 115px 14px 0px;
+  }
+
+  .operationText {
+    width: 295px;
+    height: 77px;
+    font-family: GreycliffCF;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    color: #18274a;
+    margin: 18px 115px 14px 0px;
+  }
+
+  .clip-circle {
+    width: 100%;
+    padding: 0 25px 0px 28px;
+    background-color: rgba(45, 200, 255, 0.2);
+    -webkit-clip-path: circle(80px at right);
+    clip-path: circle(80px at right);
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .cup {
+    background-image: url("../src/assets/img/icon-leader.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    height: 32px;
+    width: 32px;
+    top: 30px;
+    position: relative;
+    left: 5px;
+  }
+
+  .info {
+    background-image: url("../src/assets/img/icon-infoo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    height: 32px;
+    width: 32px;
+    top: 30px;
+    position: relative;
+    left: 5px;
+  }
+
+  .set {
+    background-image: url("../src/assets/img/icon-operation.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: right;
+    height: 32px;
+    width: 32px;
+    top: 30px;
+    position: relative;
+    left: 5px;
+  }
+
+  .announcements {
+    height: 359px;
+    width: 1360px;
+    background-color: white;
+    box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
+    border: solid 1px #dee3ed;
+    border-radius: 20px;
+    bottom: 0;
+    position: absolute;
+    left: 40px;
+    padding: 40px 40px 49px;
+    box-sizing: border-box;
+  }
+
+  .Duyurular {
+    width: 113px;
+    height: 29px;
+    margin: 1px 992px 35px 0;
+    font-family: GreycliffCF;
+    font-size: 24px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    color: #263170;
+  }
+
+  .Rectangle-Copy-9 {
+    left: 1145px;
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    margin: 0 10px 0 0;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    border: solid 2px #dee3ed;
+    background-color: #ffffff;
+    position: absolute;
+    top: 40px;
+  }
+
+  .searchIcon {
+    background-image: url("./assets/img/icon-search.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+  }
+
+  .genislet {
+    box-sizing: border-box;
+    display: flex;
+    width: 120px;
+    height: 45px;
+    margin: 0 0 0 10px;
+    padding: 11px 12px 12px 15px;
+    border-radius: 10px;
+    border: solid 2px #dee3ed;
+    background-color: #ffffff;
+    top: 40px;
+    position: absolute;
+    left: 1200px;
+  }
+
+  .genislet p {
+    width: 53px;
+    height: 20px;
+    font-family: GreycliffCF;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: left;
+    letter-spacing: -0.1px;
+    color: #1753c9;
+    margin-top: auto;
+  }
+
+  .maximize {
+    background-image: url("./assets/img/icon-maximize.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 22px;
+    position: absolute;
+    display: flex;
+    left: 86px;
+    top: 10px;
+    bottom: 10px;
   }

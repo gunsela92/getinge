@@ -24,7 +24,7 @@ const Header = () => {
           <input
             className="Takip-Numaras-ile-K"
             type="text"
-            placeholder={"Takip Numarası İle Kayıt Ara"}
+            placeholder={"Takip Numarası ile Kayıt Ara"}
             onChange={(e) => console.log(e.target.value)}
           />
           <button className="Rectangle-Copy-10">
