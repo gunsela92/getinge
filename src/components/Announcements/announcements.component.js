@@ -22,6 +22,31 @@ const Announcements = () => {
             İzin Duyurusu<div className="arrow"></div>
           </p>
         </div>
+        <div className="yemekhane">
+          <p>
+            Yemekhane Duyurusu<div className="arrow"></div>
+          </p>
+        </div>
+        <div className="ulasim">
+          <p>
+            Ulaşım Duyurusu<div className="arrow"></div>
+          </p>
+        </div>
+        <div className="sigorta">
+          <p>
+            Sağlık Sigortası Duyurusu<div className="arrow"></div>
+          </p>
+        </div>
+        <div className="egitim">
+          <p>
+            Eğitim Duyuruları<div className="arrow"></div>
+          </p>
+        </div>
+        <div className="guvenlik">
+          <p>
+            İş Yeri Güveliği Duyurusu<div className="arrow"></div>
+          </p>
+        </div>
       </div>
     </div>
   );

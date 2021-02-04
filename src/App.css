@@ -507,6 +507,7 @@
   }
 
   .izin {
+    position: absolute;
     box-sizing: border-box;
     width: 410px;
     height: 90px;
@@ -515,12 +516,63 @@
     background-color: #ffffff;
   }
 
+  .yemekhane {
+    position: absolute;
+    left: 475px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    width: 410px;
+    height: 90px;
+  }
+
+  .ulasim {
+    position: absolute;
+    right: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    width: 410px;
+    height: 90px;
+  }
+
+  .sigorta {
+    position: absolute;
+    bottom: 49px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    width: 410px;
+    height: 90px;
+  }
+  
+  .egitim {
+    position: absolute;
+    bottom: 49px;
+    left: 475px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    width: 410px;
+    height: 90px;
+  }
+
+  .guvenlik {
+    position: absolute;
+    bottom: 49px;
+    right: 40px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid 1px lightgray;
+    width: 410px;
+    height: 90px;
+  }
+
   .yeni {
     float: right;
     box-sizing: border-box;
     width: 60px;
     height: 25px;
-    margin: 0 0 5px 10px;
     padding: 0px 17px 4px 16px;
     border-bottom-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -537,8 +589,13 @@
     letter-spacing: -0.2px;
   }
 
-  .izin > p {
+  .yemekhane > p {
+    max-width: 310px;
+  }
+
+  .izin > p, .yemekhane > p, .ulasim > p, .sigorta > p, .egitim > p, .guvenlik > p {
     display: table-cell;
+    min-width: 330px;
     position: relative;
     top: 35px;
     left: 30px;
@@ -550,7 +607,7 @@
     line-height: normal;
     letter-spacing: normal;
     color: #253342;
-    width: 100vw;
+    width: 310px;
 }
 
 .arrow {
@@ -560,4 +617,6 @@
   height: 24px;
   width: 24px;
   float: right;
+  position: relative;
+  left: 21px;
 }
