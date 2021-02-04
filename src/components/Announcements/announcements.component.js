@@ -2,7 +2,7 @@ import React from "react";
 
 const Announcements = () => {
   return (
-    <div style={{ position: "absolute", bottom: "60px", width: "1440px" }}>
+    <div style={{ position: "absolute", bottom: "0", width: "1440px" }}>
       <div className="announcements">
         <p className="Duyurular">
           Duyurular

@@ -27,6 +27,28 @@ const Center = () => {
           </div>
         </p>
       </div>
+      <div className="anketBox">
+        <p className="projeText">
+          Anketler
+          <div className="clip-circle">
+            <div className="anketIcon"></div>
+          </div>
+        </p>
+      </div>
+      <div className="resultBox">
+        <p className="oneriText">
+          Anket Sonuçları
+          <div className="clip-circle">
+            <div className="resultIcon"></div>
+          </div>
+        </p>
+      </div>
+      <div className="qrBox">
+        <p className="oneriText">
+          QR Kod ile Mobile Geç
+            <div className="qrImage"></div>
+        </p>
+      </div>
     </div>
   );
 };

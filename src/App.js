@@ -9,8 +9,7 @@ function App() {
   return (
     <div style={{
       display: "flex",
-      justifyContent: "center",
-      alignItems: "center"
+      justifyContent: "center"
     }}>
     <div className="_Getinge_OneScreen">
     <Header/>
