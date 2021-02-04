@@ -2,17 +2,27 @@ import React from "react";
 
 const Announcements = () => {
   return (
-    <div className="announcements">
-      <p className="Duyurular">
-        Duyurular
-        <div className="Rectangle-Copy-9">
-          <div className="searchIcon"></div>
-        </div>
-        <div className="genislet">
+    <div style={{ position: "absolute", bottom: "60px", width: "1440px" }}>
+      <div className="announcements">
+        <p className="Duyurular">
+          Duyurular
+          <div className="Rectangle-Copy-9">
+            <div className="searchIcon"></div>
+          </div>
+          <div className="genislet">
             <p>Genişlet</p>
             <span className="maximize"></span>
           </div>
-      </p>
+        </p>
+        <div className="izin">
+          <div className="yeni">
+            <span>Yeni</span>
+          </div>
+          <p>
+            İzin Duyurusu<div className="arrow"></div>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };

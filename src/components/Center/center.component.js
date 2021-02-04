@@ -2,7 +2,7 @@ import React from "react";
 
 const Center = () => {
   return (
-    <div>
+    <div style={{ position: "absolute", top: "0", width: "1440px" }}>
       <div className="ayinProjesi">
         <p className="projeText">
           Ayın Projesi

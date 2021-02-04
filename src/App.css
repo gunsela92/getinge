@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
 @font-face {
   font-family: GreycliffCF;
   src: url("../src/assets/fonts/FontsFree-Net-greycliff-cf-bold.ttf");
@@ -20,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
   }
 
   .Rectangle {
@@ -37,6 +40,13 @@
     height: 40px;
     margin: 30px 0 30px 40px;
     object-fit: contain;
+  }
+
+  input[type=text]
+  {
+    outline: none;
+    border:none;
+    color: black;
   }
 
   .Rectangle-Copy-8 {
@@ -112,6 +122,7 @@
     box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
     background-color: rgba(255, 255, 255, 0.95);
     float: right;
+    border:none;
   }
 
   .iconsss {
@@ -136,6 +147,86 @@
     align-items: center;
     white-space: nowrap;
     text-align: center;
+  }
+
+  .mainInfo {
+    width: 260px;
+    height: 155px;
+    background-color: rgba(255, 255, 255, 0.95);
+    margin: 20px 40px 132px 582px;
+    padding: 15px 0 17px;
+    border-radius: 10px;
+    float: right;
+    position: absolute;
+    box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
+    right: 0;
+    top: 25%;
+    font-family: GreycliffLight;
+    box-sizing: border-box;
+  }
+
+  .weather label {
+    font-family: GreycliffLight;
+    font-weight: 300;
+  }
+
+  .mainInfo hr {
+    top: 15px;
+    position: relative;
+  }
+
+  .weather p {
+    top: 5px;
+    position: absolute;
+    right: 74px;
+    left: 67px;
+    white-space: nowrap;
+    font-family: GreycliffCF;
+    font-size: 12px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    color: #1c1f25;
+  }
+
+  .workers p {
+    bottom: 20px;
+    position: absolute;
+    left: 67px;
+    white-space: nowrap;
+    font-family: GreycliffCF;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.2px;
+    color: #1c1f25;
+    margin: 0 auto;
+  }
+
+  .weatherIcon {
+    background-image: url("../src/assets/img/hava-durumu.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 26px;
+    width: 32px;
+    margin: 10px 15px 10px 25px;
+  }
+
+  .workerIcon {
+    background-image: url("../src/assets/img/calisan.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 21px;
+    width: 34px;
+    margin: 10px 15px 10px 25px;
+    position: relative;
+    top: 30px;
+  }
+
+  .workers span {
+    font-family: GreycliffCF;
   }
 
   .mainBlock {
@@ -197,7 +288,7 @@
     border-radius: 10px;
     box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
     border: solid 1px #dee3ed;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.92);
     top: 490px;
     left: 40px;
     box-sizing: border-box;
@@ -211,7 +302,7 @@
     border-radius: 10px;
     box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
     border: solid 1px #dee3ed;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.92);
     top: 490px;
     left: 500px;
     box-sizing: border-box;
@@ -226,7 +317,7 @@
     border-radius: 10px;
     box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
     border: solid 1px #dee3ed;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255, 255, 255, 0.92);
     top: 490px;
     left: 960px;
     box-sizing: border-box;
@@ -330,7 +421,7 @@
     box-shadow: inset 0 -4px 1px 0 rgba(142, 159, 173, 0.2);
     border: solid 1px #dee3ed;
     border-radius: 20px;
-    bottom: 0;
+    bottom: 60px;
     position: absolute;
     left: 40px;
     padding: 40px 40px 49px;
@@ -414,3 +505,59 @@
     top: 10px;
     bottom: 10px;
   }
+
+  .izin {
+    box-sizing: border-box;
+    width: 410px;
+    height: 90px;
+    border-radius: 10px;
+    border: solid 1px #f41351;
+    background-color: #ffffff;
+  }
+
+  .yeni {
+    float: right;
+    box-sizing: border-box;
+    width: 60px;
+    height: 25px;
+    margin: 0 0 5px 10px;
+    padding: 0px 17px 4px 16px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #f41351;
+    color: white;
+  }
+
+  .yeni > span {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.2px;
+  }
+
+  .izin > p {
+    display: table-cell;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    font-family: GreycliffCF;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #253342;
+    width: 100vw;
+}
+
+.arrow {
+  background-image: url("./assets/img/icon-16-drop-right.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 24px;
+  width: 24px;
+  float: right;
+}

@@ -7,11 +7,17 @@ import './App.css';
 
 function App() {
   return (
+    <div style={{
+      display: "flex",
+      justifyContent: "center",
+      alignItems: "center"
+    }}>
     <div className="_Getinge_OneScreen">
     <Header/>
     <Mainblock/>
     <Center />
     <Announcements />
+    </div>
     </div>
   );
 }
